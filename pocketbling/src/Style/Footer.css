@@ -1,0 +1,76 @@
+
+
+.social-media {
+  padding: 20px;
+  background-color: #F9CFCF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-media .media-icon {
+  cursor: pointer;
+  color: #FF8299;
+  margin: 0 10px;
+  font-size: 30px;
+}
+
+.contact {
+  --bs-gutter-x: 0;
+  font-family: "Nunito Sans", sans-serif;
+  padding:  30px 4rem;
+  background-color: #FFF4F4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+.contact-item {
+  margin: 0 px;
+  margin-bottom: 30px;
+}
+.rul {
+  height: 0.8px;
+  width: 16rem;
+  margin-bottom: 8px;
+  background-color: #FF8299;
+}
+.hepler h4 {
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.hepler p {
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+.infor-contact h4 {
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.infor-contact h6 {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 8px;
+
+}
+.infor-contact p {
+  font-size: 13px;
+}
+
+.address-contact h4 {
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.address-contact h6 {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 10px;
+
+}
+.address-contact p {
+  font-size: 13px;
+  margin-bottom: 15px;
+}

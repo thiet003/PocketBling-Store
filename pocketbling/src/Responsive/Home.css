@@ -1,0 +1,18 @@
+
+
+@media (max-width: 767px){
+    .category-item {
+        font-size: 12px;
+        margin: 0 10px;
+    }
+    .product .row {
+        --bs-gutter-x: 0;
+        width: 120%;
+    }
+    .pro-contain {
+        /* margin: 10px 20px; */
+    }
+    .product-image {
+        width: 100%;
+    }
+}

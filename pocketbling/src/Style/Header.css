@@ -1,0 +1,99 @@
+#header {
+    font-family: "Nunito Sans", sans-serif;
+    display: flex;
+    padding: 20px 100px;
+    justify-content: center;
+    align-items: center;
+}
+/* #header .logo-shop {
+
+} */
+#header .logo-shop img {
+    cursor: pointer;
+    width: 110px;
+    height: 60px;
+}
+#header .search-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 100%; */
+    /* min-width: 200px;
+    max-width: 400px; */
+    width: 30rem;
+    margin-left: 150px;
+    margin-right: 20px;
+}
+#header .search-box input {
+    width: 100%;
+    height: 40px;
+    border: 2px solid #FFB0BD;
+    border-radius: 8px;
+    padding: 0 10px;
+    outline: none;
+}
+#header .search-box button {
+    position: absolute;
+    width: 50px;
+    right: 0;
+    height: 40px;
+    border: none;
+    background-color: #FFB0BD;
+    color: #fff;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+}
+#header .search-box button i {
+    font-size: 16px;
+}
+#header .infor-box {
+    display: flex;
+    min-width: 300px;
+}
+#header .infor-box .header-cart {
+    width: 50px;
+    position: relative;
+    margin-left: 20px;
+}
+#header .infor-box .header-login {
+    cursor: pointer;
+    margin: 0;
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 15px;
+}
+#header .infor-box .header-login:hover {
+    color: #FFB0BD;
+}
+#header .infor-box .header-signup {
+    cursor: pointer;
+    margin: 0;
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 5px;
+}
+#header .infor-box .header-signup:hover {
+    color: #FFB0BD;
+}
+#header .infor-box .header-cart img {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 29px;
+}
+#header .infor-box .header-cart span {
+    position: absolute;
+    top: 5px;
+    transform: translateY(-50%);
+    right: 13px;
+    background-color: #E56266;
+    color: #fff;
+    border-radius: 50%;
+    padding:  0 6px;
+    font-size: 12px;
+    font-weight: 700;
+}

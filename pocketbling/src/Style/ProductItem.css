@@ -1,0 +1,45 @@
+.product-item {
+    font-family: "Nunito Sans", sans-serif;
+    cursor: pointer;
+    margin: 10px 1px;
+}
+.product-item:hover .product-name {
+    color: #FF8CB0;
+}
+.product-image {
+    width: 100%;
+}
+.product-body {
+    padding: 10px;
+}
+.product-name {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden; 
+    text-overflow: ellipsis
+}
+.product_price {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #000;
+    font-size: 18px;
+}
+.product-atc {
+    padding: 6px 16px;
+    background-color: #D41830;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+    font-weight: 500;
+    border-radius: 20px;
+    border: none;
+}
+.product-atc:hover {
+    background-color: #6AC753;
+}

@@ -1,0 +1,66 @@
+
+.cart-container {
+    font-family: "Nunito Sans", sans-serif;
+    background-color: #FFF4F4;
+    margin-top: 30px;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+.cart-item {
+    background-color: #fff;
+    
+}
+.remove-cart {
+    color: #FD8FA1;
+}
+.cart-item .cart-price {
+    font-weight: 700;
+}
+.cart-item .cart-quantity {
+    text-align: center;
+    background-color: #fff;
+    border: none;
+    padding: 0;
+    margin-left: 10px;
+    font-size: 18px;
+}
+.cart-item .degre {
+    color: red;
+}
+.cart-item .incre{
+    color: green;
+}
+.cart-item .cart-total-price {
+    color: #FFB0BD;
+    font-size: 22px;
+}
+.continue-shopping {
+    border: none;
+    z-index: 10;
+    color:   #fff;
+    background-color: #FFB0BD;
+    font-size: 17.6px;
+    padding: 0.5rem 1.5rem;
+    border-radius: 30px;
+}
+.continue-shopping:hover {
+    background-color: #FD8FA1;
+    color: #fff;
+}
+.to-checkout {
+    color: #FFB0BD;
+    z-index: 10;
+    font-size: 17.6px;
+    padding: 0.5rem 1.5rem;
+    background-color: #fff;
+    border: 1px solid #FFB0BD;
+    border-radius: 30px;
+}
+.to-checkout:hover {
+    z-index: 10;
+    background-color: #FFB0BD;
+    color: #fff;
+    border: 1px solid #FFB0BD;
+}

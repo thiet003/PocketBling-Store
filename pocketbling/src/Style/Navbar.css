@@ -1,0 +1,38 @@
+.navbar-div {
+    font-family: "Nunito Sans", sans-serif;
+    border: 1px solid #9D9D9D;
+    padding: 20px 20px 10px 20px;
+    max-height: 370px;
+    width: 100%;
+}
+.navbar-div .infor-user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.navbar-div .infor-user h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.navbar-div p {
+    cursor: pointer;
+    margin-bottom: 4px;
+    font-weight: 700;
+    font-size: 15px;
+}
+.navbar-div p.active {
+    color: #FFB0BD;
+}
+.navbar-div p:hover {
+    color: #FFB0BD;
+}
+.navbar-div p a {
+    text-decoration: none;
+    color: #000;
+}
+.navbar-div p a:hover {
+    color: #FFB0BD;
+}

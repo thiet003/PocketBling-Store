@@ -1,0 +1,58 @@
+@media (max-width: 1050px) { 
+    .cart-container {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .box-cart {
+        width: 95%;
+    }
+}
+@media (max-width: 767px){
+    .cart-container {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .contain-cart {
+        padding: 23px 10px !important;
+    }
+    .box-cart h3 {
+        font-size: 17px;
+        font-weight: 700 !important;
+    }
+    .box-cart .sort {
+        display: none;
+    }
+    .fw-normal {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .count-quan {
+        justify-content: center;
+    }
+    .count-quan input {
+        width: 30%;
+        margin-left: 0;
+    }
+    .box-cart h5 {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .box-button {
+        flex-direction: column;
+    }
+    .box-button button {
+        width: 100%;
+        margin: 0;
+    }
+    .box-button button:last-child {
+        margin-top: 10px;
+    }
+    .carrt{
+        display: flex;
+        justify-content: center;
+    }
+    .float-end p{
+        margin-right: 0 !important;
+        min-width: 200px;
+    }
+}

@@ -1,0 +1,41 @@
+@media (min-width: 768px) and (max-width: 1024px) { 
+    .main-order {
+        margin-top: 20px;
+    }
+    .pay-box {
+        display: flex;
+        justify-content: center;
+    }
+    .mid {
+        border: none;
+    }
+    .pay-content {
+        margin-top: 50px;
+        width: 80%;
+    }
+    
+    .main-order .form-user-order input:last-child {
+        margin-bottom: 5px;
+    }
+}
+@media (max-width: 767px){
+    .main-order {
+        margin-top: 20px;
+    }
+    
+    .form-pay-l.left {
+        border: none;
+    }
+    .main-order .form-user-order input {
+        margin-bottom: 20px;
+    }
+    .mid {
+        margin-top: 20px;
+        padding: 0 30px;
+        border: none;
+    }
+    .pay-content {
+        margin-top: 30px;
+        width: 100%;
+    }
+}

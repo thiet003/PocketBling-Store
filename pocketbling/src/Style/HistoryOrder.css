@@ -1,0 +1,31 @@
+.main-history {
+    font-family: "Nunito Sans", sans-serif;
+    margin: 100px 5rem;
+    margin-top: 30px;
+    min-height: 40vh;
+}
+
+.list-order {
+    flex-grow: 1;
+    margin-left: 30px;
+    border: 1px solid #9D9D9D;
+}
+
+.list-order .title {
+    padding: 20px;
+}
+.list-order h3 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #9D9D9D;
+}
+.list-order table {
+    width: 100%;
+}
+.list-order table thead tr th {
+    text-align: center;
+}
+.list-order table tbody tr td {
+    text-align: center;
+}

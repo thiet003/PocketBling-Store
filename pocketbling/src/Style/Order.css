@@ -1,0 +1,242 @@
+.main-order{
+    font-family: "Nunito Sans", sans-serif;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+}
+.fail-p {
+    color: red;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.main-order .card{
+    border: none;
+    margin: 2vh;
+}
+.main-order .card-top{
+    padding: 0.7rem 5rem;
+}
+.main-order .card-top a{
+    float: left;
+    margin-top: 0.7rem;
+}
+.main-order #logo{
+    font-family: 'Dancing Script';
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+.main-order .card-body{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media(max-width:768px){
+    .main-order .card-body{
+        padding: 0 1rem 1rem 1rem;
+    }  
+    .main-order .card-top{
+        padding: 0.7rem 1rem;
+    }
+}
+.main-order .row{
+    margin: 0;
+}
+.main-order .upper{
+    padding: 1rem 0;
+    justify-content: space-evenly;
+}
+.main-order #three{
+    border-radius: 1rem;
+        width: 22px;
+    height: 22px;
+    margin-right:3px;
+    border: 1px solid blue;
+    text-align: center;
+    display: inline-block;
+}
+.main-order #payment{
+    margin:0;
+    color: blue;
+}
+.main-order .form-user-order input {
+    padding: 10px 12px;
+    border-radius: 5px;
+}
+.main-order .form-user-order input::placeholder {
+    font-size: 15px;
+}
+.main-order form span{
+    display: inline-block;
+    color: rgb(179, 179, 179);
+    /* font-size: 15px; */
+    margin-bottom: 5px;
+}
+.main-order form{
+    padding: 2vh 0;
+    padding-top: 0;
+}
+.left input{
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    padding: 1vh;
+    margin-top: 3vh;
+    outline: none;
+    width: 100%;
+}
+.main-order input:focus::-webkit-input-placeholder
+{
+      color:transparent;
+}
+.main-order .header{
+    font-size: 1.5rem;
+}
+.main-order .left{
+    height: 100%;
+    background-color: #ffffff;
+    padding: 0 30px;
+    border-right: 1px solid #000;
+}
+.main-order .left img{
+    width: 2rem;
+}
+.main-order .left .col-4{
+    padding-left: 0;
+}
+.main-order .right .item{
+    padding: 0.3rem 0;
+}
+.main-order .right{
+    background-color: #ffffff;
+    padding: 0 2vh;
+}
+.main-order .col-8{
+    padding: 0 1vh;
+}
+.main-order .lower{
+    line-height: 2;
+}
+.div-btn-order {
+    display: flex;
+    justify-content: right;
+}
+.main-order .order-btn{
+    background-color: #FFB0BD;
+    color: white;
+    font-size: 0.7rem;
+    margin: 4vh 0 1.5vh 0;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.main-order .order-btn:hover {
+    background-color: #FD8FA1;
+    color: white;
+}
+.main-order a{
+    color: black;
+}
+.main-order a:hover{
+    color: black;
+    text-decoration: none;
+}
+.main-order input[type=checkbox]{
+    width: unset;
+    margin-bottom: unset;
+}
+.main-order #cvv{
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.575) , rgba(255, 255, 255, 0.541)), url("https://img.icons8.com/material-outlined/24/000000/help.png");
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: center;
+} 
+#cvv:hover{
+
+}
+.mid {
+    border-right: 1px solid #000;
+}
+.shipping-title {
+    margin-bottom: 20px;
+}
+.shipping-title.last-title {
+    margin-top: 40px;
+}
+.shipping-input .item-shipping {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.shipping-input .item-shipping input{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 100%;
+    display: inline-block;
+    margin-bottom: 0;
+}
+.shipping-input .item-shipping span {
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 16px;
+}
+
+.order-table-product thead {
+    font-size: 15px;
+    color: #212529;
+    border-bottom: 1px solid #ccc;
+}
+.order-table-product thead th {
+    font-weight: 500;
+    padding: 10px 0;
+}
+.order-table-product tbody tr {
+    border-bottom: 1px solid #ccc;
+}
+.order-table-product tbody tr td {
+    padding: 8px;
+    text-align: center;
+}
+.order-table-product tbody tr td {
+    font-size: 15px;
+}
+.order-table-product tbody tr td a {
+    text-decoration: none;
+    color: #FD8FA1;
+}
+.order-table-product tbody tr td a:hover {
+    font-weight: 600;
+    color: #FD8FA1;
+}
+.order-table-product tbody tr td:first-child {
+    padding: 8px 8px 8px 0;
+    text-align: left;
+}
+.row-cal {
+    font-size: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+}
+.row-cal p {
+    margin: 0;
+    font-weight: 500;
+}
+.order-infor-title span {
+    margin-right: 5px;
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    color: #fff;
+    background: #ffb0bd;
+    border-radius: 50%;
+    font-size: 15px;
+    text-align: center;
+}
+.price-details {
+    font-weight: 700;
+    color: #FD8FA1;
+    font-size: 18px;
+}

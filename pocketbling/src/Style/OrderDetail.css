@@ -1,0 +1,90 @@
+.main-order-detail {
+    font-family: "Nunito Sans", sans-serif;
+    margin-top: 65px;
+    padding: 50px;
+    margin: 50px 4rem;
+    background-color: #FFF4F4;
+    border-radius: 10px;
+}
+.main-order-detail h1 {
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 24px;
+    padding-left: 30px;
+}
+.main-order-detail h1 span {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+.infor-product {
+    display: flex;
+    margin-bottom: 20px;
+}
+.infor-product h4 {
+    font-size:20px;
+    margin-bottom: 20px;
+}
+.infor-product table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.infor-product table thead {
+    background-color: #FFB0BD;
+}
+.infor-product table td, .infor-product table th {
+    padding: 10px 0;
+    border-bottom: 1px solid #E0E0E0;
+}
+.infor-product table td {
+    padding: 10px 0;
+    border-bottom: 1px solid #E0E0E0;
+}
+.infor-product table th, .infor-product table td {
+    text-align: left;
+    padding: 10px 10px;
+    border-bottom: 1px solid #E0E0E0;
+}
+.product-detail {
+    background-color: #fff;
+    border-radius: 10px;
+    flex-grow: 2;
+    margin-right: 50px;
+    margin-left: 0;
+}
+.price-detail {
+    margin-left: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.infor-person {
+    display: flex;
+    margin-top: 10px;
+}
+.infor-person h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.user-infor {
+    flex-grow: 1;
+    margin-right: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+}
+.user-infor p span {
+    margin-left: 5px;
+}
+.shipping-infor {
+    flex-grow: 1;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+}
+.shipping-infor p span {
+    margin-left: 5px;
+}

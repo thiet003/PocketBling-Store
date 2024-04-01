@@ -1,0 +1,63 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+    #header {
+        padding: 20px 30px;
+    }
+    #header .search-box {
+        margin-left: 50px;
+    }
+    #header .infor-box {
+        min-width: 250px;
+    }
+    
+}
+@media (max-width: 767px){
+    #header {
+        padding: 20px 20px;
+        font-size: 8px;
+    }
+    #header .logo-shop {
+        width: 60px;
+    }
+    #header .logo-shop img {
+        width: 100%;
+        height: 28px;
+    }
+    #header .search-box {
+        margin-left: 1rem;
+        width: 250px;
+    }
+    #header .search-box input {
+        height: 25px;
+    }
+    #header .search-box button {
+        width: 30px;
+        height: 25px;
+    }
+    #header .search-box button i {
+        font-size: 10px;
+    }
+    #header .infor-box {
+        min-width: 9rem;
+    }
+    #header .infor-box .header-login {
+        flex-grow: 1;
+        /* margin-right: 5px; */
+    }
+    #header .infor-box .header-signup {
+        flex-grow: 1;
+    }
+    #header .infor-box .header-cart {
+        margin-left: 0;
+        width: 40px;
+        /* flex-grow: 1; */
+    }
+    #header .infor-box .header-cart img {
+        height: 1rem;
+    }
+    #header .infor-box .header-cart span {
+        right: 18px;
+        top: 0px;
+        padding: 0 4px;
+        font-size: 8px;
+    }
+}
